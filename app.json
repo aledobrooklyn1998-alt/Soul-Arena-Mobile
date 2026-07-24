@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Soul Arena",
+    "slug": "soul-arena-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#175a9d"
+    },
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.soularena.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#175a9d"
+      },
+      "package": "com.soularena.mobile"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-sqlite"
+    ]
+  }
+}
